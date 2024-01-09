@@ -168,7 +168,7 @@ export default function BakeCard() {
 
   return (
     <div>
-    <div className={styles.head} style={{fontWeight:"2px"}}>
+    <div className={styles.head} style={{fontWeight:"2px" , textAlign:"center"}}>
     <h1>SAND STAKING</h1>
 </div>
 <div className={styles.card_cont}>
