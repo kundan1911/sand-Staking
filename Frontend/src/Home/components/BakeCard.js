@@ -218,7 +218,7 @@ export default function BakeCard() {
         
       <div className={styles.section} style={{display:"flex" , contain:""}}>
                         <div className={styles.section_head}>Stake</div>
-                        <div className={styles.bal_card}> Balance:{walletSolBalance} SOL </div>
+                       <div className={styles.bal_card} style={{justifyContent:"center"}}> Balance:{walletSolBalance} SOL </div>
                         <input type="number" placeholder="Enter Amount"
                             onChange={(e) => onUpdateBakeSOL(e.target.value)}
                             className={styles.in}
