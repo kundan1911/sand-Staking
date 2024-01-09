@@ -19,9 +19,8 @@ export const DEFAULT_MAX_TIER = 2;
 export const NETWORK = "devnet";
 
 export const PROGRAM_ID = new PublicKey(
-  "557BPiUp8WSumh7PcLpXE12VZppRhiezdHRdfhKAVANn"
+  "GU4ByjzNAiqGTaDXsfG8VcjZcgZNGCFVMVqUsdjvf3zp"
 );
 export const TREASURY = new PublicKey(
-  "AWUBKdjcomTH17MusezMp2wcsy5xtSvJAnaZbj3mdW9D"
+  "BNqh3nPYgq3GAraaopHLBMioMKhMDCGAncCZ4E2TKnsR"
 );
-
