@@ -64,6 +64,7 @@ export const getVaultSolBalance = async (wallet: any): Promise<String> => {
 
 export const getUserData = async (wallet: any): Promise<any> => {
   if (wallet.publicKey === null || wallet.publicKey === undefined) return null;
+  // console.log(wallet.publicKey)
   console.log("getUserData");
   const program = getProgram(wallet);
   

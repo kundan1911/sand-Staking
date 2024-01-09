@@ -240,7 +240,7 @@ export default function BakeCard() {
             />
           </Box> */}
           
-          {/* <Box marginTop={3} marginBottom={3}>
+          <Box marginTop={3} marginBottom={3}>
             <Button
               variant="contained"
               fullWidth
@@ -250,9 +250,9 @@ export default function BakeCard() {
             >
               Init
             </Button>
-          </Box> */}
+          </Box>
 
-          {/* <Box marginTop={3} marginBottom={3}>
+          <Box marginTop={3} marginBottom={3}>
             <Button
               variant="contained"
               fullWidth
@@ -262,7 +262,7 @@ export default function BakeCard() {
             >
               ROAST BEANS
             </Button>
-          </Box> */}
+          </Box>
           <Divider />
 
           <div className={styles.section}>

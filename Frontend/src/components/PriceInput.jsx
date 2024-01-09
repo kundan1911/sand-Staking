@@ -21,7 +21,7 @@ const SolInput = styled("input")({
 
 export default function PriceInput({ value, max, onChange = () => {} }) {
   return (
-    <Box position="relative">
+    <Box position="relative" width="100%">
       <SolInput
         type="number"
         min={0}
@@ -37,7 +37,7 @@ export default function PriceInput({ value, max, onChange = () => {} }) {
         fontWeight={500}
         color="black"
       >
-        SOL
+        SAND
       </Typography>
     </Box>
   );
