@@ -28,7 +28,7 @@ import {
 const CardWrapper = styled(Card)({
   background: "transparent",
   marginBottom: 24,
-  border: "5px solid #555",
+  // border: "5px solid #555",
 });
 
 const ButtonContainer = styled(Grid)(({ theme }) => ({
@@ -218,16 +218,16 @@ export default function BakeCard() {
         
       <div className={styles.section} style={{display:"flex" , contain:""}}>
                         <div className={styles.section_head}>Stake</div>
-                        <div className={styles.bal_card}> Balance:{walletSolBalance} SOL </div>
+                        <div className={styles.bal_card} style={{justifyContent:"center"}}> Balance:{walletSolBalance} SOL </div>
                         <input type="number" placeholder="Enter Amount"
-                            onChange={(e) => setSand(e.target.value)}
+                            onChange={(e) => onUpdateBakeSOL(e.target.value)}
                             className={styles.in}
-
+                            style={{width:"100%"}}
                         />
                         <button className={styles.buy_btn}
-                        disabled={!address || +sand <= 0 || loading}
+                        disabled={!address || +bakeSOL <= 0 || loading}
                         onClick={bake}
-                        >Buy {sand} SAND</button>
+                        >Buy {bakeSOL} SAND</button>
 
                     </div>
 

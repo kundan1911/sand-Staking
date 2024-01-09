@@ -21,7 +21,7 @@ import {
 } from '@solana/wallet-adapter-material-ui';
 import { ToastContainer } from 'react-toastify';
 
-import backgroundImg from '../assets/background.webp';
+import backgroundImg from '../assets/honeycomb_.png';
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -81,7 +81,7 @@ export default function Home() {
           <BakeCard />
           {/* <NutritionFacts /> */}
           <ReferralLink address={wallet.publicKey && wallet.publicKey.toBase58()} />
-          <Footer />
+          {/* <Footer /> */}
           <ToastContainer
             position="top-right"
             autoClose={5000}

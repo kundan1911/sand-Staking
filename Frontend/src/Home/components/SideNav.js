@@ -50,9 +50,15 @@ const SideNav = (props) => {
             </div>
             <div className={styles.socials_cont}>
                 <div className={styles.socials_inner}>
-                    <FaSquareTwitter size={30} className={styles.icon} />
-                    <GiOpenBook size={30} className={styles.icon} />
-                    <FaTelegram size={30} className={styles.icon} />
+                <a href="https://twitter.com/PyramidPonzu" rel="noopener noreferrer" style={{color:"black"}}>
+        <FaSquareTwitter size={30} className={styles.icon} />
+      </a>
+      <a href="https://pyramidponzu.gitbook.io/pyramid-ponzu/" target="_blank" rel="noopener noreferrer" style={{color:"black"}}>
+        <GiOpenBook size={30} className={styles.icon} />
+      </a>
+      <a href="https://t.me/PyramidPonzu" target="_blank" rel="noopener noreferrer" style={{color:"black"}}>
+        <FaTelegram size={30} className={styles.icon} />
+      </a>
                 </div>
             </div>
         </div>
